@@ -4,6 +4,7 @@ import (
 	"crypto/aes"
 	"crypto/cipher"
 	"errors"
+	"strings"
 
 	//nolint:gosec // MD5 is used for hash comparison
 	"crypto/md5"
@@ -67,6 +68,7 @@ func GetMachineID() string {
 		msg.Err("Error on get machine ID")
 		id = "12345678901234567890123456789012"
 	}
+	id = strings.Replace(id, "-", "", -1)
 	return id
 }
 

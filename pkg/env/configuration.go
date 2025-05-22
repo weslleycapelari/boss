@@ -70,7 +70,7 @@ func (a *Auth) GetPassPhrase() string {
 
 func (a *Auth) SetUser(user string) {
 	if encryptedUser, err := crypto.Encrypt(crypto.MachineKey(), user); err != nil {
-		msg.Err("Fail to crypt user.", err)
+		msg.Err("Fail to crypt user. error: %s", err)
 	} else {
 		a.User = encryptedUser
 	}

@@ -79,7 +79,7 @@ func GetCacheDir() string {
 }
 
 func GetBossHome() string {
-	homeDir := os.Getenv("BOSS_HOME")
+	homeDir := os.Getenv("FIORILLI_BOSS_HOME")
 
 	if homeDir == "" {
 		systemHome, err := homedir.Dir()
@@ -90,15 +90,21 @@ func GetBossHome() string {
 
 		homeDir = filepath.FromSlash(homeDir)
 	}
-	return filepath.Join(homeDir, consts.FolderBossHome)
+	return filepath.Join(GetProjectFolder(consts.FolderProject), consts.FolderRefactor, consts.FolderBossHome)
+	// return filepath.Join(homeDir, consts.FolderBossHome)
 }
 
 func GetBossFile() string {
 	return filepath.Join(GetCurrentDir(), consts.FilePackage)
 }
 
+func GetGlobalBossFile() string {
+	return filepath.Join(GetProjectFolder(consts.FolderProject), consts.FolderRefactor, consts.FilePackage)
+}
+
 func GetModulesDir() string {
-	return filepath.Join(GetCurrentDir(), consts.FolderDependencies)
+	return filepath.Join(GetProjectFolder(consts.FolderProject), consts.FolderRefactor, consts.FolderDependencies)
+	//return filepath.Join(GetCurrentDir(), consts.FolderDependencies)
 }
 
 func GetCurrentDir() string {
@@ -131,3 +137,25 @@ func GetDcc32Dir() string {
 
 	return ""
 }
+
+func GetProjectFolder(target string) string {
+	dir, _ := os.Getwd()
+	for {
+		// Caminho potencial da pasta alvo
+		potential := filepath.Join(dir, target)
+
+		if stat, err := os.Stat(potential); err == nil && stat.IsDir() {
+			return potential
+		}
+
+		// Sobe um diretório
+		parent := filepath.Dir(dir)
+		if parent == dir {
+			// Chegou na raiz e não encontrou
+			break
+		}
+		dir = parent
+	}
+	return ""
+}
+

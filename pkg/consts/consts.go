@@ -12,6 +12,8 @@ const (
 
 	FilePackageLockOld = "boss.lock"
 	FolderDependencies = "modules"
+	FolderProject      = "Projeto_SCPI_FD"
+	FolderRefactor     = "scpi_novo"
 
 	FolderEnv = "env"
 
