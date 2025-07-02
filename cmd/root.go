@@ -7,7 +7,6 @@ import (
 	"github.com/hashload/boss/pkg/env"
 	"github.com/hashload/boss/pkg/gc"
 	"github.com/hashload/boss/pkg/msg"
-	"github.com/hashload/boss/setup"
 
 	"github.com/spf13/cobra"
 )
@@ -43,7 +42,7 @@ func Execute() error {
 	root.PersistentFlags().BoolVarP(&debug, "debug", "d", false, "debug")
 	root.Flags().BoolVarP(&versionPrint, "version", "v", false, "show cli version")
 
-	setup.Initialize()
+	//setup.Initialize()
 
 	config.RegisterConfigCommand(root)
 	initCmdRegister(root)
