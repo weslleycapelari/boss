@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 func RunGC(ignoreLastUpdate bool) error {

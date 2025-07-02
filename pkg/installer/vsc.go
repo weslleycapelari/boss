@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 
 	goGit "github.com/go-git/go-git/v5"
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/git"
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
-	"github.com/hashload/boss/utils"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/git"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/utils"
 )
 
 //nolint:gochecknoglobals //TODO: Refactor this

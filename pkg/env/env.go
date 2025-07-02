@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/msg"
-	"github.com/hashload/boss/utils/dcc32"
 	"github.com/mitchellh/go-homedir"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/utils/dcc32"
 )
 
 //nolint:gochecknoglobals //TODO: Refactor this

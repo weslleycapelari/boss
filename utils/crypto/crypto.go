@@ -15,7 +15,7 @@ import (
 	"io"
 
 	"github.com/denisbrodbeck/machineid"
-	"github.com/hashload/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 func Encrypt(key []byte, message string) (string, error) {

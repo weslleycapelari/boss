@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/utils"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/utils"
 )
 
 func moveArtifacts(dep models.Dependency, rootPath string) {

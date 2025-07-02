@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hashload/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/env"
 
-	"github.com/hashload/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 type Dependency struct {

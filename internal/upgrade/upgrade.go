@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/hashload/boss/internal/version"
-	"github.com/hashload/boss/pkg/msg"
 	"github.com/minio/selfupdate"
+	"github.com/weslleycapelari/boss/internal/version"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 const (

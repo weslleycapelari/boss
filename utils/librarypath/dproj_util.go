@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/beevik/etree"
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 func updateDprojLibraryPath(pkg *models.Package) {

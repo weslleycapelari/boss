@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/msg"
-	"github.com/hashload/boss/utils"
 	"github.com/masterminds/semver"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/utils"
 )
 
 type DependencyArtifacts struct {

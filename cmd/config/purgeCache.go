@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/hashload/boss/pkg/gc"
 	"github.com/spf13/cobra"
+	"github.com/weslleycapelari/boss/pkg/gc"
 )
 
 func RegisterCmd(cmd *cobra.Command) {

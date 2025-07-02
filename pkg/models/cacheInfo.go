@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 type RepoInfo struct {

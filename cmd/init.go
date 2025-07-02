@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
 	"github.com/pterm/pterm"
 	"github.com/spf13/cobra"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 func initCmdRegister(root *cobra.Command) {

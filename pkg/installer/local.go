@@ -1,8 +1,8 @@
 package installer
 
 import (
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/utils/dcp"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/utils/dcp"
 )
 
 func LocalInstall(args []string, pkg *models.Package, lockedVersion bool, _ /* noSave */ bool) {

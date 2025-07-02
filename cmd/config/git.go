@@ -3,9 +3,9 @@ package config
 import (
 	"strings"
 
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/msg"
 	"github.com/spf13/cobra"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 func boolToMode(embedded bool) string {

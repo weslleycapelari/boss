@@ -8,16 +8,16 @@ import (
 
 	goGit "github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/hashload/boss/pkg/compiler"
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/git"
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
-	"github.com/hashload/boss/pkg/paths"
-	"github.com/hashload/boss/utils"
-	"github.com/hashload/boss/utils/librarypath"
 	"github.com/masterminds/semver"
+	"github.com/weslleycapelari/boss/pkg/compiler"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/git"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/pkg/paths"
+	"github.com/weslleycapelari/boss/utils"
+	"github.com/weslleycapelari/boss/utils/librarypath"
 )
 
 type installContext struct {

@@ -4,7 +4,7 @@
 package librarypath
 
 import (
-	"github.com/hashload/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 func updateGlobalLibraryPath() {

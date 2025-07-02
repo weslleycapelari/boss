@@ -3,10 +3,10 @@ package compiler
 import (
 	"path/filepath"
 
-	"github.com/hashload/boss/pkg/compiler/graphs"
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/compiler/graphs"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/models"
 )
 
 func loadOrderGraph(pkg *models.Package) *graphs.NodeQueue {

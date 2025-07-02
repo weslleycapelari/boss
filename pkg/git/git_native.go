@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 
 	git2 "github.com/go-git/go-git/v5"
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
-	"github.com/hashload/boss/pkg/paths"
-	"github.com/hashload/boss/utils"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/pkg/paths"
+	"github.com/weslleycapelari/boss/utils"
 )
 
 func checkHasGitClient() {

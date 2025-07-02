@@ -6,8 +6,8 @@ package registry
 import (
 	"os"
 
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/utils"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/utils"
 	"golang.org/x/sys/windows/registry"
 )
 

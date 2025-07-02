@@ -6,8 +6,8 @@ import (
 	"io"
 	"os/exec"
 
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 func RunCmd(name string, args ...string) {

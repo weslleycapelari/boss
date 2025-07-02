@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/utils/parser"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/utils/parser"
 )
 
 type Package struct {

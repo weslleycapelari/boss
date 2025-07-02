@@ -8,13 +8,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/msg"
-	"github.com/hashload/boss/utils"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/utils"
 	"golang.org/x/sys/windows/registry"
 
-	bossRegistry "github.com/hashload/boss/pkg/registry"
+	bossRegistry "github.com/weslleycapelari/boss/pkg/registry"
 )
 
 const SearchPathRegistry = "Search Path"

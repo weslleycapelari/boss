@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/hashload/boss/internal/upgrade"
 	"github.com/spf13/cobra"
+	"github.com/weslleycapelari/boss/internal/upgrade"
 )
 
 func upgradeCmdRegister(root *cobra.Command) {

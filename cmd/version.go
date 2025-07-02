@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"github.com/hashload/boss/internal/version"
-	"github.com/hashload/boss/pkg/msg"
 	"github.com/spf13/cobra"
+	"github.com/weslleycapelari/boss/internal/version"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 func versionCmdRegister(root *cobra.Command) {

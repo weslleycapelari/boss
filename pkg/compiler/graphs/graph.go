@@ -6,8 +6,8 @@ import (
 
 	"slices"
 
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
 )
 
 type Node struct {

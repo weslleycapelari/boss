@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
-	"github.com/hashload/boss/utils"
-	"github.com/hashload/boss/utils/dcp"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/utils"
+	"github.com/weslleycapelari/boss/utils/dcp"
 )
 
 func getCompilerParameters(rootPath string, dep *models.Dependency, platform string) string {

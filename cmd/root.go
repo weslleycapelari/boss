@@ -3,10 +3,10 @@ package cmd
 import (
 	"os"
 
-	"github.com/hashload/boss/cmd/config"
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/gc"
-	"github.com/hashload/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/cmd/config"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/gc"
+	"github.com/weslleycapelari/boss/pkg/msg"
 
 	"github.com/spf13/cobra"
 )

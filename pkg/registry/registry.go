@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hashload/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/env"
 )
 
 func GetDelphiPaths() []string {

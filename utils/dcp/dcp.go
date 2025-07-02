@@ -8,11 +8,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
-	"github.com/hashload/boss/utils"
-	"github.com/hashload/boss/utils/librarypath"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/utils"
+	"github.com/weslleycapelari/boss/utils/librarypath"
 	"golang.org/x/text/encoding/charmap"
 	"golang.org/x/text/transform"
 )

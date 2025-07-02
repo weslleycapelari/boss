@@ -9,9 +9,9 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/transport"
 	"github.com/go-git/go-git/v5/plumbing/transport/http"
 	sshGit "github.com/go-git/go-git/v5/plumbing/transport/ssh"
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/msg"
-	"github.com/hashload/boss/utils/crypto"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/msg"
+	"github.com/weslleycapelari/boss/utils/crypto"
 	"golang.org/x/crypto/ssh"
 )
 

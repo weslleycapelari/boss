@@ -9,12 +9,12 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/hashload/boss/pkg/consts"
-	"github.com/hashload/boss/pkg/env"
-	"github.com/hashload/boss/pkg/models"
-	"github.com/hashload/boss/pkg/msg"
-	bossRegistry "github.com/hashload/boss/pkg/registry"
-	"github.com/hashload/boss/utils"
+	"github.com/weslleycapelari/boss/pkg/consts"
+	"github.com/weslleycapelari/boss/pkg/env"
+	"github.com/weslleycapelari/boss/pkg/models"
+	"github.com/weslleycapelari/boss/pkg/msg"
+	bossRegistry "github.com/weslleycapelari/boss/pkg/registry"
+	"github.com/weslleycapelari/boss/utils"
 	"golang.org/x/sys/windows/registry"
 )
 

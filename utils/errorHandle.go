@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/hashload/boss/pkg/msg"
+import "github.com/weslleycapelari/boss/pkg/msg"
 
 func HandleError(err error) {
 	if err != nil {

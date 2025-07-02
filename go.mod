@@ -1,4 +1,4 @@
-module github.com/hashload/boss
+module github.com/weslleycapelari/boss
 
 go 1.24.0
 

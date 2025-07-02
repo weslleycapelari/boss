@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/hashload/boss/pkg/scripts"
 	"github.com/spf13/cobra"
+	"github.com/weslleycapelari/boss/pkg/scripts"
 )
 
 func runCmdRegister(root *cobra.Command) {
